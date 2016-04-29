@@ -1,0 +1,34 @@
+.box-in > div {
+    padding: 1rem;
+    float: left;
+    margin: 2rem auto auto 0.8rem;
+    text-align: center;
+    width: 10rem;
+    height: 4.5rem;
+    border: 1px solid #E0E0E0;
+}
+
+.box-in > div > img {
+    width: 2rem;
+    height: 2rem;
+    margin: auto 1rem auto -1rem;
+}
+
+.box-in > div > span {
+    font-size: 1.3rem;
+    margin-right: -1rem;
+    margin-left: -0.5rem;
+    padding-left: 0.6rem;
+    border-left: 1px solid #f29600;
+}
+
+.box-title {
+    font-size: 2rem;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: 0;
+    height: 12rem;
+}
