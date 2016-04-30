@@ -33,22 +33,21 @@
     height: 12rem;
 }
 
-.hot-title{
+.hot-title {
     float: left;
+    padding: 0;
+    width: 100%;
 }
 
 .hot {
     float: left;
+    padding-left: 0;
     margin: 1rem 1rem 1rem 0.8rem;
     padding-right: 1rem;
     border-right: 0.17rem solid #999999;
 }
 
-.hot > div {
-    margin-right: 1rem;
-}
-
-.click{
+.click {
     float: left;
     margin-top: 0.9rem;
 }
@@ -62,4 +61,16 @@
     text-align: center;
     border: 0;
     background: #999999;
+}
+
+.box-content {
+    margin: 1rem auto 1rem 0.8rem;
+    border-top: 0.17rem solid #f29600;
+    float: left
+}
+
+.text-right{
+    margin-top: 1rem;
+    float: right;
+    margin-right: 0.8rem;
 }
