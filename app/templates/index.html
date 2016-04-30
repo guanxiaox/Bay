@@ -1,7 +1,6 @@
 {% extends "layout.html" %}
 {% block head %}
-        <div class="head" style="padding: 0">
-        <br>
+    <div class="head" style="padding: 0">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -14,19 +13,19 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="/static/images/img_flower.jpg" alt="" width="100%" height="12rem">
+                    <img src="/static/images/20160427  图片素材-03.png" alt="" width="100%" height="12rem">
                 </div>
 
                 <div class="item">
-                    <img src="/static/images/img_flower.jpg" alt="" width="100%" height="12rem">
+                    <img src="/static/images/20160427  图片素材-13.png" alt="" width="100%" height="12rem">
                 </div>
 
                 <div class="item">
-                    <img src="/static/images/img_flower.jpg" alt="" width="100%" height="12rem">
+                    <img src="/static/images/20160427  图片素材-23.png" alt="" width="100%" height="12rem">
                 </div>
 
                 <div class="item">
-                    <img src="/static/images/img_flower.jpg" alt="" width="100%" height="12rem">
+                    <img src="/static/images/20160427  图片素材-33.png" alt="" width="100%" height="12rem">
                 </div>
             </div>
 
@@ -35,18 +34,30 @@
 {% endblock %}
 {% block content %}
     <div class="body">
-        <div class="box-in" style="padding: auto;margin: 2rem auto">
-            <div><img src="/static/images/money.png"><span>这是一个框</span></div>
-            <div><img src="/static/images/law.png"><span>这是一个框</span></div>
-            <div><img src="/static/images/two.png"><span>这是一个框</span></div>
-            <div><img src="/static/images/IT.png"><span>这是一个框</span></div>
-            <div><img src="/static/images/law.png"><span>这是一个框</span></div>
-            <div><img src="/static/images/login.png"><span>这是一个框</span></div>
+        <div class="box-in" style="margin: 1rem auto">
+            <div><img src="/static/images/money.png"><span>财税云服务</span></div>
+            <div><img src="/static/images/law.png"><span>法律云服务</span></div>
+            <div><img src="/static/images/two.png"><span>人事云服务</span></div>
+            <div><img src="/static/images/IT.png"><span>IT云服务</span></div>
+            <div><img src="/static/images/law.png"><span>一站式服务</span></div>
+            <div><img src="/static/images/login.png"><span>财务登录</span></div>
         </div>
     </div>
-    <div class="box-title">
-        <div><strong>热门服务</strong></div>
+    <div class="hot-title">
+        <div class="hot">
+            <strong style="float: left;font-size: 1.6rem">热门服务</strong>
+        </div>
+        <div class="click">
+            <button class="button button-tiny button-border button-primary" style="color: white;">财&nbsp;&nbsp;务</button>
+            <button class="button button-tiny button-border button-primary" style="color: white;" >法&nbsp;&nbsp;律</button>
+            <button class="button button-tiny button-border button-primary" style="color: white;">人&nbsp;&nbsp;事</button>
+            <button class="button button-tiny button-border button-primary" style="color: white;">I&nbsp;&nbsp;&nbsp;T</button>
+        </div>
     </div>
+    <div id="content"></div>
 {% endblock %}
-    <script></script>
-{% block custom_js %}{% endblock %}
+
+{% block custom_js %}
+    <script src="../static/js/index.js" type="text/babel"></script>
+    <script type="text/babel"></script>
+{% endblock %}

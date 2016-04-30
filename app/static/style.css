@@ -1,11 +1,11 @@
 .box-in > div {
     padding: 1rem;
     float: left;
-    margin: 2rem auto auto 0.8rem;
+    margin: 1rem auto auto 0.8rem;
     text-align: center;
     width: 10rem;
     height: 4.5rem;
-    border: 1px solid #E0E0E0;
+    border: 0.1rem solid #E0E0E0;
 }
 
 .box-in > div > img {
@@ -31,4 +31,35 @@
     width: 100%;
     margin: 0;
     height: 12rem;
+}
+
+.hot-title{
+    float: left;
+}
+
+.hot {
+    float: left;
+    margin: 1rem 1rem 1rem 0.8rem;
+    padding-right: 1rem;
+    border-right: 0.17rem solid #999999;
+}
+
+.hot > div {
+    margin-right: 1rem;
+}
+
+.click{
+    float: left;
+    margin-top: 0.9rem;
+}
+
+.click > button {
+    padding: 0;
+    width: 5.3rem;
+    margin-left: 0.4rem;
+    height: 2rem;
+    font-size: 0.5rem;
+    text-align: center;
+    border: 0;
+    background: #999999;
 }
