@@ -1,36 +1,25 @@
 {
-  "name": "Bay",
-  "version": "0.0.1",
-  "description": "企业湾",
-  "directories": {
-    "test": "test"
-  },
-
-  "scripts": {
-    "test": "jest"
-  },
-  "jest": {
-    "testDirectoryName": "tests",
-    "scriptPreprocessor": "tests/helpers/preprocessor.js",
-    "setupTestFrameworkScriptFile": "tests/helpers/framework_script_file.js",
-    "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/react",
-      "<rootDir>/node_modules/superagent"
-    ],
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/tests/helpers/"
-    ]
-  },
   "repository": {
     "type": "git",
-    "url": "http://https://github.com/guanxiaox/Bay.git"
+    "url": ""
   },
-  "author": "X_G",
-  "license": "ISC",
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.3.21",
-    "babel-loader": "^6.2.0",
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.3.1",
+    "bounce.js": "^0.8.1",
+    "jest": "^0.1.37",
+    "jest-cli": "^0.2.2",
+    "jshint": "^2.6.0",
+    "jshint-loader": "^0.8.1",
+    "jsx-loader": "^0.12.2",
+    "jsxhint-loader": "^0.2.0",
+    "less": "^2.3.1",
+    "react-tools": "^0.12.2",
+    "reflux": "^0.2.10",
+    "superagent": "^0.21.0",
+    "underscore": "^1.7.0",
     "babel-plugin-syntax-decorators": "^6.3.13",
     "babel-plugin-transform-decorators": "^6.3.13",
     "babel-polyfill": "^6.3.14",
@@ -40,15 +29,20 @@
     "babel-preset-stage-1": "^6.3.13",
     "babel-preset-stage-2": "^6.3.13",
     "babel-preset-stage-3": "^6.3.13",
-    "bounce.js": "^0.8.1",
-    "css-loader": "^0.15.2",
-    "jest": "^0.1.37",
-    "jest-cli": "^0.2.2",
-    "jshint": "^2.6.0",
-    "jshint-loader": "^0.8.1",
-    "jsx-loader": "^0.12.2",
-    "jsxhint-loader": "^0.2.0",
-    "less": "^2.3.1",
+    "classnames": "^2.2.1",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "framework7": "^1.4.0",
+    "history": "^1.17.0",
+    "immutable": "^3.7.6",
+    "jquery": "^2.1.4",
+    "jssha": "^1.6.0",
+    "less-loader": "^2.2.2",
+    "lodash": "^3.10.1",
+    "metaui": "git+ssh://git@git.coding.net:yinstone/metaui.git",
+    "moment": "^2.12.0",
+    "node-sass": "^3.4.2",
     "react": "^0.14.3",
     "react-addons-create-fragment": "^0.14.3",
     "react-addons-linked-state-mixin": "^0.14.3",
@@ -63,12 +57,14 @@
     "react-timer-mixin": "^0.13.3",
     "react-validation-mixin": "^5.3.2",
     "redux-devtools": "^3.0.0",
-    "metaui": "git+ssh://git@git.coding.net:yinstone/metaui.git",
-    "react-tools": "^0.12.2",
-    "reflux": "^0.2.10",
-    "superagent": "^0.21.0",
-    "underscore": "^1.7.0",
-    "webpack": "^1.10.1",
-    "whatwg-fetch": "^0.9.0"
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.0",
+    "whatwg-fetch": "^0.11.0"
+  },
+  "dependencies": {
+    "echarts": "^3.1.5"
   }
 }

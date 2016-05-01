@@ -1,0 +1,37 @@
+{% extends 'index.html' %}
+{% block content %}
+    <div class="hot-title">
+        <div class="hot">
+            <strong style="float: left;font-size: 1.6rem">财务云</strong>
+        </div>
+        <div class="text-right">
+            更多>
+        </div>
+    </div>
+    <hr style="margin: 0 0.8rem 0 0.8rem;width:94%;float:left;border:0.15rem solid #f29600"/>
+    <div id="content"></div>
+    <div class="hot-title">
+        <div class="hot">
+            <strong style="float: left;font-size: 1.6rem">法律云</strong>
+        </div>
+        <div class="text-right">
+            更多>
+        </div>
+    </div>
+    <hr style="margin: 0 0.8rem 0 0.8rem;width:94%;float:left;border:0.15rem solid #f29600"/>
+    <div id="law"></div>
+    <div class="hot-title">
+        <div class="hot">
+            <strong style="float: left;font-size: 1.6rem">人事</strong>
+        </div>
+        <div class="text-right">
+            更多>
+        </div>
+    </div>
+    <hr style="margin: 0 0.8rem 0 0.8rem;width:94%;float:left;border:0.15rem solid #f29600"/>
+    <div id="peo"></div>
+{% endblock%}
+{% block custom_js %}
+    <script type="text/babel" src="../static/js/Detail.js"></script>
+    <script type="text/babel"></script>
+{% endblock %}
