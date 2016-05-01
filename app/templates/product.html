@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <div id="content"></div>
+    <hr class="efefef"/>
+    <div id="address"></div>
+    <hr class="efefef"/>
+    <div id="time"></div>
+    <hr class="efefef"/>
+    <div class="tabbable"> <!-- Only required for left/right tabs -->
+        <ul class="nav nav-tabs" style="width: 100%;padding-left: 0.8rem">
+            <li class="active"><a href="#tab1" data-toggle="tab"
+                                  style="text-align:center;font-size: 1.4rem;
+                                  width:10.5rem;border-bottom: 0.2rem solid #f29600">
+                产品详情
+            </a></li>
+            <li><a href="#tab2" data-toggle="tab"
+                   style="text-align:center;font-size: 1.4rem;
+                          width:10.5rem;border-bottom: 0.2rem solid #f29600">
+                常见问题</a>
+            </li>
+            <li><a href="#tab3" data-toggle="tab"
+                   style="text-align:center;font-size: 1.4rem;
+                          width:10.5rem;border-bottom: 0.2rem solid #f29600">
+                用户评价</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="tab1">
+                <div id="tab1">产品详情</div>
+            </div>
+            <div class="tab-pane" id="tab2">
+                <div id="tab2">常见问题</div>
+            </div>
+            <div class="tab-pane" id="tab3">
+                <div id="tab3">用户评价</div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+{% block custom_js %}
+    <script type="text/babel" src="../static/js/Product.js"></script>
+    <script type="text/babel"></script>
+{% endblock %}

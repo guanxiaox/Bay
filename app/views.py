@@ -16,3 +16,16 @@ def detail():
     return render_template("detail.html",
                            title='detail',
                            app='detail')
+
+
+@app.route('/product/')
+@app.route('/product/<string:pid>')
+def product(pid):
+    if not pid:
+        return render_template('detail.html',
+                               title='product',
+                               app='product')
+    else:
+        return render_template('product.html',
+                               title='product',
+                               app='product')

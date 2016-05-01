@@ -1,3 +1,13 @@
+.box {
+    background: white;
+    width: 100%;
+}
+
+.box-money {
+    font-size: 1.6rem;
+    color: #f29600;
+}
+
 .box-in > div {
     padding: 1rem;
     float: left;
@@ -30,7 +40,7 @@
 .carousel-inner > .item > a > img {
     width: 100%;
     margin: 0;
-    height: 12rem;
+    height: 15rem;
 }
 
 .hot-title {
@@ -69,8 +79,49 @@
     float: left
 }
 
-.text-right{
+.text-right {
     margin-top: 1rem;
     float: right;
     margin-right: 0.8rem;
+}
+
+html, body, #sticker {
+    height: 100%;
+}
+
+body > #sticker {
+    height: auto;
+    min-height: 100%;
+}
+
+#stickerCon {
+    padding-bottom: 40px;
+}
+
+#footer {
+    margin-top: -40px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: #ABA498;
+    font-size: 12px;
+    background: #fafafa;
+    border-top: 1px solid #E7E7E7;
+}
+
+.navbar {
+    *position: relative;
+    *z-index: 2;
+    margin-bottom: 20px;
+    overflow: visible;
+}
+
+.efefef {
+    margin: 1rem auto;
+    width: 100%;
+    background: #efefef;
+    height: 0.5rem;
+    float: left;
+    border: 0.15rem solid #efefef
 }
