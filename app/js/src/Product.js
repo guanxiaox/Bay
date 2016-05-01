@@ -45,37 +45,109 @@ var ProductDetail = React.createClass({
             <div>
                 <img src="/static/images/first.png" style={{width: "100%",height: "10rem"}}/>
                 <div style={{padding:'0.8rem'}}>
-
+                    <div style={{border:'0.1rem solid #e0e0e0',width:'100%',height:'15rem'}}>
+                        <div style={{float:'left',margin:'6rem 1rem auto 3rem'}}>
+                            <strong style={{fontSize:'1.8rem'}}>您将得到</strong>
+                            <div style={{background:'#f29600',color:'#ffffff',marginLeft:'-1.3rem',
+                                         fontSize:'1.2rem',padding:'0 0.2rem 0 0.2rem',width:'9.5rem'}}>
+                                一对一的星级服务
+                            </div>
+                        </div>
+                        <hr style={{border:'0.1rem dashed #999999',width:'0',height:'9.5rem',padding:'0',margin:'3rem 0 0 0'}}/>
+                        <hr style={{border:'0.1rem dashed #999999',width:'1rem',padding:'0',margin:'-9.6rem 0 0 12.5rem'}}/>
+                        <hr style={{border:'0.1rem dashed #999999',width:'1rem',padding:'0',margin:'3rem 0 0 12.5rem'}}/>
+                        <hr style={{border:'0.1rem dashed #999999',width:'1rem',padding:'0',margin:'3rem 0 0 12.5rem'}}/>
+                        <hr style={{border:'0.1rem dashed #999999',width:'1rem',padding:'0',margin:'3rem 0 0 12.5rem'}}/>
+                        <div style={{float:'left',margin:'-10.5rem auto auto 15rem'}}>
+                            <div>
+                                <div style={{width:'2rem',height:'rem',background:'#f29600',
+                                         color:'#ffffff',textAlign:'center',float:'left'}}>
+                                    01
+                                </div>
+                                <strong style={{marginLeft:'0.5rem',float:'left'}}>注册营业执照</strong>
+                                <span style={{color:'#999999',fontSize:'0.8rem'}}>(三证合一)</span>
+                            </div>
+                            <div style={{marginTop:'1.5rem'}}>
+                                <div style={{width:'2rem',height:'rem',background:'#f29600',
+                                         color:'#ffffff',textAlign:'center',float:'left'}}>
+                                    02
+                                </div>
+                                <strong style={{marginLeft:'0.5rem',float:'left'}}>营业执照副本</strong>
+                                <span style={{color:'#999999',fontSize:'0.8rem'}}>&nbsp;</span>
+                            </div>
+                            <div style={{marginTop:'1.5rem'}}>
+                                <div style={{width:'2rem',height:'rem',background:'#f29600',
+                                         color:'#ffffff',textAlign:'center',float:'left'}}>
+                                    03
+                                </div>
+                                <strong style={{marginLeft:'0.5rem',float:'left'}}>名称准核通知书</strong>
+                                <span style={{color:'#999999',fontSize:'0.8rem'}}>&nbsp;</span>
+                            </div>
+                            <div style={{marginTop:'1.5rem'}}>
+                                <div style={{width:'2rem',height:'rem',background:'#f29600',
+                                         color:'#ffffff',textAlign:'center',float:'left'}}>
+                                    04
+                                </div>
+                                <strong style={{marginLeft:'0.5rem',float:'left'}}>章</strong>
+                                <span style={{color:'#999999',fontSize:'0.8rem'}}>(公章,法人章,xx章)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="box-gray">
+                    <div><strong>服务流程&办理周期</strong></div>
+                    <div className="box-img"><img src="/static/images/ser.png"/></div>
+                    <div className="box-right"><img src="/static/images/right.png"/></div>
+                    <div className="box-img"><img src="/static/images/pc-b.png"/></div>
+                    <div className="box-right"><img src="/static/images/right.png"/></div>
+                    <div className="box-img"><img src="/static/images/file.png"/></div>
+                    <div className="box-right"><img src="/static/images/right.png"/></div>
+                    <div className="box-img"><img src="/static/images/card.png"/></div>
+                    <div className="box-right"><img src="/static/images/right.png"/></div>
+                    <div className="box-img"><img src="/static/images/zhang.png"/></div>
+                    <div className="bottom-text"><strong>核名</strong>
+                        <div style={{fontSize:'0.1rem',color:'#999999'}}>@1-2工作日</div>
+                    </div>
+                    <div className="bottom-text"><strong>网上提交网审</strong>
+                        <div style={{fontSize:'0.1rem',color:'#999999'}}>@1-2工作日</div>
+                    </div>
+                    <div className="bottom-text" style={{marginLeft:'0.2rem'}}><strong>工商文件</strong>
+                        <div style={{fontSize:'0.1rem',color:'#999999'}}></div>
+                    </div>
+                    <div className="bottom-text"><strong>取执照</strong>
+                        <div style={{fontSize:'0.1rem',color:'#999999'}}>@5-7工作日</div>
+                    </div>
+                    <div className="bottom-text" style={{marginLeft:'0.1rem'}}><strong>备案&刻章</strong>
+                        <div style={{fontSize:'0.1rem',color:'#999999'}}>@1-2工作日</div>
+                    </div>
                 </div>
             </div>
         )
     }
 });
 ReactDOM.render(
-    <ProductDetail/>,
+    <ProductDetail/>
+    ,
     document.getElementById('tab1')
 )
 
 var Problem = React.createClass({
     render: function () {
         return (
-            <div>Problem</div>
+            <div style={{padding:'0.8rem'}}>
+                <div className="box-detail">
+                    <div className="title-left">怎样设计企业名称,更容易通过核名?</div>
+                    <div className="text-help">
+                        怎样设计企业名称,更容易通过核名?怎样设计企业名称,更容易通过核名?
+                        怎样设计企业名称,更容易通过核名?怎样设计企业名称,更容易通过核名?
+                    </div>
+                </div>
+            </div>
         )
     }
 });
 ReactDOM.render(
-    <Problem/>,
+    <Problem/>
+    ,
     document.getElementById('tab2')
-)
-
-var Evaluation = React.createClass({
-    render: function () {
-        return (
-            <div>Evaluation</div>
-        )
-    }
-});
-ReactDOM.render(
-    <Evaluation/>,
-    document.getElementById('tab3')
 )
