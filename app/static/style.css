@@ -313,3 +313,62 @@ div.efefef {
     float: left;
     width: 100%;
 }
+
+#main {
+    width: 20%;
+    margin: 0 auto;
+    background-color: #CCC;
+}
+
+#nav {
+    border-top: solid 0.1rem #e0e0e0;
+    width: 110%;
+    margin: 90% 0 0 -10%;
+    position: fixed;
+    /*ie6下样式，加下划线表示只针对ie6 的hack */
+    _position: absolute; /* 把导航栏位置定义为绝对位置  关键*/
+    _top: expression(documentElement.scrollTop + "100px"); /* 把导航栏位置放在浏览器垂直滚动条的顶端  关键 */
+    z-index: 9999; /* 让导航栏浮在网页的高层位置，遇到flash和图片时候也能始终保持最外层 */
+    text-align: left;
+}
+
+.menu > button {
+    color: #000000;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    border: 0
+}
+
+.menu {
+    width: 25%;
+    height: 5rem;
+    background-color: #efefef;
+    color: #000000;
+    overflow-y: hidden;
+    cursor: hand;
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+    float: left;
+}
+
+.menu-buy {
+    width: 40%;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2.4rem;
+    background: #f29600;
+    height: 5rem;
+    color: #ffffff;
+    overflow-y: hidden;
+    cursor: hand;
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+    float: left;
+}
+
+.menu > button > img {
+    width: 50%;
+}
