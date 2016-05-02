@@ -11,9 +11,9 @@ def index():
                            app='index')
 
 
-@app.route('/detail/')
-def detail():
-    return render_template("detail.html",
+@app.route('/product_list/')
+def product_list():
+    return render_template("product_list.html",
                            title='detail',
                            app='detail')
 
@@ -22,7 +22,7 @@ def detail():
 @app.route('/product/<string:pid>/')
 def product(pid):
     if not pid:
-        return render_template('detail.html',
+        return render_template('product_list.html',
                                title='product',
                                app='product')
     else:
