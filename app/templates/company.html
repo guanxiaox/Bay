@@ -1,0 +1,51 @@
+{% extends 'layout.html' %}
+{% block js %}
+    <script type="text/babel">
+        function Change() {
+            return (
+                    <div className="box-white-c">企业名称
+                        <span>上海知加信息科技有限公司&nbsp;&nbsp;&nbsp;></span>
+                    </div>
+            )}
+    </script>
+{% endblock %}
+{% block content %}
+    <div class="efefef" style="height: 100%;padding: 0" id="content">
+        <div class="efefef">基本信息</div>
+        <div class="box-white" onclick="Change()">手机号码
+            <span>138192837493&nbsp;&nbsp;&nbsp;></span>
+        </div>
+        <div class="box-white">企业名称
+            <span>上海知加信息科技有限公司&nbsp;&nbsp;&nbsp;></span>
+        </div>
+        <div class="box-white">法人代表
+            <span>曾永山&nbsp;&nbsp;&nbsp;></span>
+        </div>
+        <div class="box-white">注册资本
+            <span style="color: #999999">请填写注册资本&nbsp;&nbsp;&nbsp;></span>
+        </div>
+        <div class="box-white" style="border: 0">员工人数
+            <span style="color: #999999">请填写员工人数&nbsp;&nbsp;&nbsp;></span>
+        </div>
+        <div class="efefef">地址信息</div>
+        <div class="box-white">省份
+            <span>上海&nbsp;&nbsp;&nbsp;></span>
+        </div>
+        <div class="box-white">城市
+            <span>上海&nbsp;&nbsp;&nbsp;></span>
+        </div>
+        <div class="box-white" style="border: 0">详细地址
+            <span>长宁区&nbsp;&nbsp;&nbsp;></span>
+        </div>
+        <div class="efefef">企业信息(选填)</div>
+        <div class="box-white">企业营业执照号
+            <span style="color: #999999">请填写企业营业执照号&nbsp;&nbsp;&nbsp;></span>
+        </div>
+        <div class="box-white">税务登记证号码
+            <span style="color: #999999">请填写税务登记证号码&nbsp;&nbsp;&nbsp;></span>
+        </div>
+        <div class="box-white" style="border: 0">其它联系电话
+            <span style="color: #999999">请填写其它联系电话&nbsp;&nbsp;&nbsp;></span>
+        </div>
+    </div>
+{% endblock %}

@@ -36,3 +36,28 @@ def order():
     return render_template('order.html',
                            title='order',
                            app='order')
+
+
+@app.route('/company/')
+@app.route('/company/<string:gid>')
+def company(gid):
+    if not gid:
+        return render_template('index.html',
+                               title='Home',
+                               app='index')
+    else:
+        return render_template('company.html',
+                               title='company',
+                               app='company')
+
+@app.route('/user/')
+@app.route('/user/<string:uid>')
+def user(uid):
+    if not uid:
+        return render_template('index.html',
+                               title='Home',
+                               app='index')
+    else:
+        return render_template('user.html',
+                               title='user',
+                               app='user')
