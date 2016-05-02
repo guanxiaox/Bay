@@ -13,23 +13,23 @@ var Evaluation = React.createClass({
                     </div>
                     <div style={{margin:"-6.5rem 0 0 15rem",fontSize:"1rem"}} className="star">
                         <div style={{fontSize:'1rem'}}>
-                            <img src="../static/images/star5.png"/>
+                            <img src="/static/images/star5.png"/>
                             <span style={{color:"#f29600",marginLeft:'2rem'}}>521人</span>非常满意
                         </div>
                         <div>
-                            <img src="../static/images/star4.png"/>
+                            <img src="/static/images/star4.png"/>
                             <span style={{color:"#f29600",marginLeft:'2rem'}}>231人</span>满意
                         </div>
                         <div>
-                            <img src="../static/images/star3.png"/>
+                            <img src="/static/images/star3.png"/>
                             <span style={{color:"#f29600",marginLeft:'2rem'}}>21人</span>一般
                         </div>
                         <div>
-                            <img src="../static/images/star2.png"/>
+                            <img src="/static/images/star2.png"/>
                             <span style={{color:"#f29600",marginLeft:'2rem'}}>10人</span>不满意
                         </div>
                         <div>
-                            <img src="../static/images/star1.png"/>
+                            <img src="/static/images/star1.png"/>
                             <span style={{color:"#f29600",marginLeft:'2rem'}}>0人</span>非常不满意
                         </div>
                     </div>
@@ -38,7 +38,7 @@ var Evaluation = React.createClass({
                     <div className="title-left" style={{background:'#f29600',color:'#ffffff'}}>我的评价</div>
 
                     <div>
-                        <img style={{width:'16rem',margin:'3rem 0 0 1rem'}} src="../static/images/star0.png"/>
+                        <img style={{width:'16rem',margin:'3rem 0 0 1rem'}} src="/static/images/star0.png"/>
                     </div>
                     <div style={{width:'100%',textAlign:'center'}}>您的评价会鼓励我们提供更优质的服务</div>
                 </div>

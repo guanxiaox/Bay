@@ -191,3 +191,55 @@ body > #sticker {
     width: 6rem;
     height: 1rem;
 }
+
+.order-title {
+    padding: 0.25rem;
+    height: 2rem;
+    margin: 2rem 0.8rem 1rem 0.8rem;
+    background: #efefef;
+    border: 0.1rem solid #e0e0e0;
+}
+
+.order-title > div {
+    font-size: 1rem;
+    text-align: center;
+    border-right: 0.1rem solid #e0e0e0;
+    float: left;
+    width: 20%;
+}
+
+.order-title > div > button {
+    width: 80%;
+    height: auto;
+    border: 0;
+    margin: 0.4rem;
+}
+
+.order-title-in {
+    padding: 0.25rem;
+    height: 2rem;
+    margin: 0;
+    background: #efefef;
+    width: 100%;
+}
+
+.order-title-in > div {
+    font-size: 1rem;
+    float: left;
+}
+
+.order-detail {
+    width: 70%;
+    padding: 0.5rem;
+    float: left;
+    margin-top: -6.7rem;
+    height: 7rem;
+    border-top:0.1rem solid #e0e0e0;
+}
+
+.order-detail > div {
+    border-left: 0.3rem solid #efefef;
+    padding-left: 0.3rem;
+    font-size: 1rem;
+    text-align: left;
+}

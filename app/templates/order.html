@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block head %}
+    <div class="order-title">
+        <div style="width: 30%">订单</div>
+        <div>实付金额</div>
+        <div>交易状态</div>
+        <div style="width: 30%;border:0">交易操作</div>
+    </div>
+{% endblock %}
+{% block content %}
+    <div id="content"></div>
+{% endblock %}
+{% block custom_js %}
+    <script type="text/babel" src="/static/js/Order.js"></script>
+    <script type="text/babel"></script>
+{% endblock %}

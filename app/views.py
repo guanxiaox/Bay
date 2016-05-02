@@ -19,7 +19,7 @@ def detail():
 
 
 @app.route('/product/')
-@app.route('/product/<string:pid>')
+@app.route('/product/<string:pid>/')
 def product(pid):
     if not pid:
         return render_template('detail.html',
@@ -29,3 +29,10 @@ def product(pid):
         return render_template('product.html',
                                title='product',
                                app='product')
+
+
+@app.route('/order/')
+def order():
+    return render_template('order.html',
+                           title='order',
+                           app='order')
