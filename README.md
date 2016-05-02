@@ -14,4 +14,4 @@ pip install -r requirements.txt
 webpack --watch
 
 ##克隆代码开发包
-git clone https://git.coding.net/zcloud01/we-page.git
+git clone https://github.com/guanxiaox/Bay.git

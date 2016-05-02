@@ -121,6 +121,51 @@ var ProductDetail = React.createClass({
                         <div style={{fontSize:'0.1rem',color:'#999999'}}>@1-2工作日</div>
                     </div>
                 </div>
+                <div className="box-bottom">
+                    <strong style={{marginLeft:"-34rem"}}>所需材料</strong>
+                    <div className="box-bottom-img" style={{textAlign:'left'}}>
+                        <div><img src="/static/images/c_name.png"/>
+                            <div style={{float:"left",width:'85%'}}>企业名称
+                                <div style={{fontSize:'1rem',color:'#999999'}}>至少准备3个</div>
+                            </div>
+                        </div>
+                        <div><img src="/static/images/print.png"/>
+                            <div style={{float:"left",width:'85%'}}>股东身份证复印件<span
+                                style={{fontSize:'1rem',color:'#999999'}}></span></div>
+                        </div>
+                        <div><img src="/static/images/house.png"/>
+                            <div style={{float:"left",width:'85%'}}>经营地址<span
+                                style={{fontSize:'1rem',color:'#999999'}}></span></div>
+                        </div>
+                        <div><img src="/static/images/print.png"/>
+                            <div style={{float:"left",width:'85%'}}>监事身份证复印件
+                                <span style={{fontSize:'1rem',float:"left",color:'#999999'}}>
+                                必须清晰，如是二代需提供正反页</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="box-bottom-img" style={{textAlign:'left'}}>
+                        <div><img src="/static/images/print.png"/>
+                            <div style={{float:"left",width:'85%'}}>法人身份证复印件
+                                <div style={{fontSize:'1rem',color:'#999999'}}>银行开户时需法人身份证原件</div>
+                            </div>
+                        </div>
+                        <div><img src="/static/images/aim.png"/>
+                            <div style={{float:"left",width:'85%'}}>注册资本额<span
+                                style={{fontSize:'1rem',color:'#999999'}}></span></div>
+                        </div>
+                        <div><img src="/static/images/charge.png"/>
+                            <div style={{float:"left",width:'85%'}}>经营范围<span
+                                style={{fontSize:'1rem',color:'#999999'}}></span></div>
+                        </div>
+                        <div><img src="/static/images/print.png"/>
+                            <div style={{float:"left",width:'85%'}}>有关合同、章程、协议书复印件
+                                <span style={{fontSize:'1rem',float:"left",color:'#999999'}}></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="/static/images/charge.png" style={{width:"100%"}}/>
             </div>
         )
     }

@@ -234,7 +234,7 @@ body > #sticker {
     float: left;
     margin-top: -6.7rem;
     height: 7rem;
-    border-top:0.1rem solid #e0e0e0;
+    border-top: 0.1rem solid #e0e0e0;
 }
 
 .order-detail > div {
@@ -242,4 +242,33 @@ body > #sticker {
     padding-left: 0.3rem;
     font-size: 1rem;
     text-align: left;
+}
+
+.box-bottom {
+    margin: 0.8rem;
+    height: 20rem;
+    border: solid 0.1rem #e0e0e0;
+    float: left;
+    width: 95%;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.box-bottom > div {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 0.5rem;
+}
+
+.box-bottom-img > div > img {
+    float: left;
+    margin: 0.5rem 0 0.5rem 0;
+    width: 2rem;
+}
+
+.box-bottom-img > div {
+    margin-top: 1rem;
+    float: left;
+    width: 100%;
 }
