@@ -323,7 +323,9 @@ div.efefef {
 #nav {
     border-top: solid 0.1rem #e0e0e0;
     width: 110%;
-    margin: 90% 0 0 -10%;
+    position:absolute;
+    bottom: 0;
+    margin-left: -10%;
     position: fixed;
     /*ie6下样式，加下划线表示只针对ie6 的hack */
     _position: absolute; /* 把导航栏位置定义为绝对位置  关键*/
