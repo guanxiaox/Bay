@@ -50,6 +50,7 @@ def company(gid):
                                title='company',
                                app='company')
 
+
 @app.route('/user/')
 @app.route('/user/<string:uid>')
 def user(uid):
