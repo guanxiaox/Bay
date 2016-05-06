@@ -1,0 +1,41 @@
+{% extends 'login.html' %}
+{% block js %}
+
+    <script>
+        function myFunction() {
+            try {
+                var x = document.getElementById("demo").value;
+                if (x == "")    throw "值为空";
+                if (isNaN(x)) throw "不是数字";
+                if (x > 10)     throw "太大";
+                if (x < 5)      throw "太小";
+            }
+            catch (err) {
+                var y = document.getElementById("mess");
+                y.innerHTML = "错误：" + err + "。";
+            }
+        }
+    </script>
+{% endblock %}
+{% block content %}
+    <div class="login">
+        <div>
+            <div class="login-input"><input id="name" placeholder="手机号"/></div>
+            <p id="mess" style="font-size: 1rem;color: red"></p>
+            <div class="login-input"><input id="name" placeholder="验证码"/></div>
+            <div class="login-input"><input id="pw1" placeholder="密&nbsp;&nbsp;&nbsp;码" type="password"/>
+            </div>
+            <div class="login-input"><input id="pw2" placeholder="确认密码" type="password"/>
+            </div>
+            <div class="login-bottom"><img style="width: 1.1rem" src="/static/images/add.png">注册表示同意
+                <a style="color: #f29600">《企业湾代记账平台用户协议》</a>
+            </div>
+            <div class="login-button">
+                <button onclick="login()">注&nbsp;&nbsp;&nbsp;册</button>
+            </div>
+            <div class="login-bottom">
+                <a style="color:#f29600;float: right">登录已有账户</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

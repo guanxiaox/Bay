@@ -62,3 +62,23 @@ def user(uid):
         return render_template('user.html',
                                title='user',
                                app='user')
+
+
+@app.route('/login/')
+def login():
+    return render_template('login.html',
+                           title='login',
+                           app='login')
+
+
+@app.route('/registered/')
+def registered():
+    return render_template('registered.html',
+                           title='registered',
+                           app='registered')
+
+
+@app.route('/change/')
+def change():
+    return render_template('change.html',
+                           app='change')

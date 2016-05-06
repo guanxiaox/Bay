@@ -1,0 +1,60 @@
+{% extends 'layout.html' %}
+{% block js %}
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#ck").click(function () {
+                if ($(this).prop("checked")) {
+                    $("#pw").prop("type", "text");
+                }
+                else {
+                    $("#pw").prop("type", "password");
+                }
+            })
+        })
+    </script>
+    <script>
+        function login() {
+            try {
+                var name = document.getElementById("name").value;
+                if (!name) throw "请输入手机号码";
+                if (isNaN(name)) throw "请输入正确的手机号码";
+                if (name.length !=11) throw "请输入正确的手机号码";
+
+            }
+            catch (err) {
+                var mess = document.getElementById("mess");
+                mess.innerHTML = err + "。";
+            }
+        }
+    </script>
+{% endblock %}
+{% block head %}
+    <div class="login">
+        <div class="login-title"><img src="/static/images/logoin.png">
+            <div><img src="/static/images/namein.png" style="width: 10rem"></div>
+            <div class="login-name">
+                <div style="font-size: 1.3rem;margin-bottom: 3rem">──&nbsp;企&nbsp;|&nbsp;业&nbsp;|&nbsp;湾&nbsp;──</div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+    <div class="login">
+        <div>
+            <div class="login-input"><input id="name" placeholder="用户名"/></div>
+            <p id="mess" style="font-size: 1rem;color: red"></p>
+            <div class="login-input"><input id="pw" placeholder="密&nbsp;&nbsp;&nbsp;码" type="password"/>
+                <div style="width: 23rem;margin: auto;text-align: right;">
+                    <input id="ck" type="checkbox"/><span style="color: #999999;margin-bottom: 0.2rem">显示密码</span>
+                </div>
+            </div>
+            <div class="login-button">
+                <button onclick="login()">登&nbsp;&nbsp;&nbsp;录</button>
+            </div>
+            <div class="login-bottom"><img style="width: 1.1rem" src="/static/images/add.png">还没账户?
+                <a style="color: #f29600">注册企业湾</a>
+                <a style="color:#f29600;float: right">忘记密码</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
