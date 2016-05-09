@@ -5,7 +5,8 @@ module.exports = {
         Detail: ['./app/js/src/Detail.js'],
         Product: ['./app/js/src/Product.js'],
         Evaluation: ['./app/js/src/Evaluation.js'],
-        Order:['./app/js/src/Order.js']
+        Order:['./app/js/src/Order.js'],
+        Pay:['./app/js/src/Pay.js']
     },
     output: {
         path: 'app/static/js/',

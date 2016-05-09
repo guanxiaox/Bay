@@ -82,3 +82,10 @@ def registered():
 def change():
     return render_template('change.html',
                            app='change')
+
+
+@app.route('/pay/')
+def pay():
+    return render_template('pay.html',
+                           title='pay',
+                           app=change)

@@ -420,6 +420,7 @@ div.efefef {
 }
 
 .button-time {
+    border:0.1rem solid #e0e0e0;
     color: #666;
     background-color: #ffffff;
     font-size: 1rem;
@@ -430,7 +431,6 @@ div.efefef {
     margin-right: 1rem;
     display: inline-block;
     cursor: pointer;
-    border: none;
     box-sizing: border-box;
     transition-property: all;
     transition-duration: .3s;
