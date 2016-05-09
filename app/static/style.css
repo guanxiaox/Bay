@@ -412,9 +412,54 @@ div.efefef {
     margin: auto auto 1rem;
 }
 
-.login-bottom{
+.login-bottom {
     font-size: 1rem;
     width: 23rem;
     text-align: left;
     margin: auto;
+}
+
+.button-time {
+    color: #666;
+    background-color: #ffffff;
+    font-size: 1rem;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    width: 5rem;
+    margin-right: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+    transition-property: all;
+    transition-duration: .3s;
+}
+
+li.active {
+    border-bottom: 0.2rem solid #f29600;
+}
+
+.evaluation {
+    margin: 1rem 1rem 0 1rem;
+    width: 8rem;
+    border: 0.1rem solid #f29600;
+    background: #fdf4e8;
+    color: #f29600;
+    text-align: center;
+}
+
+.eva-in {
+    float: left;
+    margin: 1rem;
+    border: 0.1rem solid #efefef;
+    font-size: 1rem;
+    padding: 1rem;
+    color: #999999;
+}
+
+.eva-img > img {
+    width: 6rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }

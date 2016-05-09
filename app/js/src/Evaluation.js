@@ -42,10 +42,25 @@ var Evaluation = React.createClass({
                     </div>
                     <div style={{width:'100%',textAlign:'center'}}>您的评价会鼓励我们提供更优质的服务</div>
                 </div>
-                <div className="box-detail" style={{height:'10rem',marginTop:'1rem'}}>
+                <div className="box-detail" style={{height:'25rem',marginTop:'1rem'}}>
                     <div className="title-left" style={{background:'#f29600',color:'#ffffff'}}>详细评价</div>
-                    <button className="evaluation">98.1%</button>
-                    <div>好评率</div>
+                    <div style={{float:"left",width:"100%"}}>
+                        <button className="evaluation">服务态度好</button>
+                        <button className="evaluation">和描述一致</button>
+                        <button className="evaluation">创业好帮手</button>
+                        <button className="evaluation">速度快</button>
+                        <button className="evaluation">服务态度好</button>
+                        <button className="evaluation">创业好帮手</button>
+                    </div>
+                    <div className="eva-in">
+                        <div className="eva-img">
+                            <img src="/static/images/fast.png"/>
+                            <img src="/static/images/fast.png"/>
+                        </div>
+                        如果是新公司还未办理税务报道。则国税还会收一个120元/年的CA证书费用，地
+                        税的是280元/年（个别地区地税免费）。这两个证书是供企业网上缴税使用的，免
+                        除了每次都得跑银行的烦恼。
+                    </div>
                 </div>
             </div>
         )

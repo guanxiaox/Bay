@@ -132,9 +132,15 @@
   .button:visited {
     color: #666; }
   .button:hover, .button:focus {
-    background-color: #f6f6f6;
+    background-color: #fff;
     text-decoration: none;
     outline: none; }
+    .button-time:hover, .button-time:focus {
+    background-color: #f29600;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    }
   .button:active, .button.active, .button.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
     text-decoration: none;

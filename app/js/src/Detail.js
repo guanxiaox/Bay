@@ -1,27 +1,4 @@
-import $ from "jquery";
 var Detail = React.createClass({
-    getInitialState: function () {
-        return {
-            price: [],
-            name: [],
-            page: [],
-            size: [],
-            items: []
-        }
-    },
-    componentDidMount: function () {
-        $.ajax({
-            url: '/api/product/product_list',
-            type: "POST",
-            dataType: 'json',
-            contentType: 'application/json',
-            data: JSON.stringify(data)
-        }).done((resp)=> {
-            if (resp.success) {
-                this.setState(resp)
-            }
-        })
-    },
     render: function () {
         return (
             <div className="">
@@ -135,6 +112,7 @@ var PeoDetail = React.createClass({
                         <div style={{fontSize:'0.4rem',color:'#999999'}}>帮助您快速完成公司注册,办事流程完整的同时保证您的效率</div>
                     </div>
                 </div>
+                <div style={{height:"6rem",float:"left"}}></div>
             </div>
         )
     }

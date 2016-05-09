@@ -84,6 +84,7 @@ var Order = React.createClass({
                         <div>订单备注:<span>备注备注备注备注备注备注备注备注备注备注备注备注</span></div>
                     </div>
                 </div>
+                <div style={{height:'6rem'}}></div>
             </div>
         )
     }
