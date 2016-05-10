@@ -1,12 +1,21 @@
 {% extends 'layout.html' %}
+{% block top %}
+    <div style="height: 5.1rem"></div>
+    <div id="nav" style="top:0;background: black;height: 5.1rem;padding: 1.5rem">
+        <span style="color: white;border-right: 0.1rem solid #efefef;margin-left: 3rem;font-size: 2rem">
+            <img style="margin-top: -0.5rem;height: 2rem" src="/static/images/left.png"/>&nbsp;&nbsp;&nbsp;
+        </span>
+        <span style="color: white;font-size: 1.6rem">&nbsp;&nbsp;更&nbsp;改&nbsp;企&nbsp;业&nbsp;名&nbsp;称</span>
+        <span style="float: right;">
+            <button style="color: white;background: #f29600;border: 0;font-size: 1rem">保存</button>
+        </span>
+    </div>
+{% endblock %}
 {% block content %}
     <div class="box-white" style="border-color: #f29600;padding: 0">
         <input style="width: 100%;height: 100%;padding-left:1rem" placeholder="上海知加信息科技有限公司"/>
     </div>
     <div style="color: #999999;margin-left: 1rem;font-size: 1rem">
         请填写正确的公司名称
-    </div>
-    <div style="float: right;margin-right: 1rem">
-        <button style="color: white;background: #f29600;border: 0;font-size: 1rem">保存</button>
     </div>
 {% endblock %}

@@ -24,6 +24,20 @@
 
 
 <body style="padding: 0">
+{% block top %}
+    <div style="height: 5.1rem"></div>
+    <div id="nav" style="top:0;background: black;height: 5.1rem;padding: 1.5rem">
+        <span style="color: white;border-right: 0.1rem solid #efefef;margin-left: 3rem;font-size: 2rem">
+            <img style="margin-top: -0.5rem;height: 2rem" src="/static/images/left.png"/>&nbsp;&nbsp;&nbsp;
+        </span>
+        <span style="color: white;font-size: 2rem">&nbsp;&nbsp;企&nbsp;&nbsp;业&nbsp;&nbsp;湾</span>
+        <span style="float: right;">
+            <img data-toggle="dropdown" href="#"
+                 style="height: 2rem;margin-right: 1rem;"
+                 src="/static/images/dian.png"/>
+        </span>
+    </div>
+{% endblock %}
 {% block head %}{% endblock %}
 {% block top_content %}{% endblock %}
 {% block content %}{% endblock %}

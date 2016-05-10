@@ -420,7 +420,7 @@ div.efefef {
 }
 
 .button-time {
-    border:0.1rem solid #e0e0e0;
+    border: 0.1rem solid #e0e0e0;
     color: #666;
     background-color: #ffffff;
     font-size: 1rem;
@@ -462,4 +462,23 @@ li.active {
     width: 6rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
+}
+
+select {
+    width: 6rem;
+    border: solid 0.1rem #e0e0e0;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+    padding-right: 14px;
+    border-radius: 0;
+}
+
+select > option {
+    color: white;
+}
+
+select::-ms-expand {
+    display: none;
 }

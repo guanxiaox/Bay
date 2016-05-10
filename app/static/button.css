@@ -135,7 +135,8 @@
     background-color: #fff;
     text-decoration: none;
     outline: none; }
-    .button-time:hover, .button-time:focus {
+    .button-time:hover, .button-time:focus,
+    a.button-time:active,a.button-time:focus {
     background-color: #f29600;
     text-decoration: none;
     outline: none;

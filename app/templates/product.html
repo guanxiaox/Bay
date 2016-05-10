@@ -17,7 +17,8 @@
                     </button>
                 </li>
                 <li class="menu-buy">
-                    <div>立即购买</div>
+                    <button>
+                        <div>立即购买</div>
                     </button>
                 </li>
             </ul>
@@ -28,14 +29,21 @@
         <hr class="efefef"/>
         <div id="time">
             <div class="button-group" style="float: left">服务时长:&nbsp;&nbsp;
-                <button type="button" class="button-time">一&nbsp;&nbsp;年</button>
-                <button type="button" class="button-time">6个月</button>
-                <button type="button" class="button-time">3个月</button>
-                <button type="button" class="button-time">1个月</button>
+                <select>
+                    <option>一&nbsp;&nbsp;年</option>
+                    <option>六个月</option>
+                    <option>三个月</option>
+                    <option>一个月</option>
+                </select>
+                {#
+                <a type="button" class="button-time" onclick="">一&nbsp;&nbsp;年</a>
+                <a type="button" class="button-time">6个月</a>
+                <a type="button" class="button-time">3个月</a>
+                <a type="button" class="button-time">1个月</a>#}
             </div>
         </div>
         <hr class="efefef"/>
-        <div class="tabbable"> <!-- Only required for left/right tabs -->
+        <div class="tabbable">
             <ul class="nav nav-tabs" style="width: 100%;padding-left: 0.5rem">
                 <li class="active"><a href="#tab1" data-toggle="tab"
                                       style="text-align:center;font-size: 1.4rem;
@@ -55,13 +63,13 @@
             </ul>
             <div class="tab-content">
                 <div class="tab-pane active" id="tab1">
-                    <div id="tab1">产品详情</div>
+                    <div id="tab1"></div>
                 </div>
                 <div class="tab-pane" id="tab2">
-                    <div id="tab2">常见问题</div>
+                    <div id="tab2"></div>
                 </div>
                 <div class="tab-pane" id="tab3">
-                    <div id="tab3">用户评价</div>
+                    <div id="tab3"></div>
                 </div>
             </div>
             <div style="height:6rem"></div>
