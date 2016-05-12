@@ -494,7 +494,7 @@ ul.time > li.active {
     color: #ffffff;
 }
 
-.nav > li {
+ul.time > li {
     width: 5rem;
     position: relative;
     display: block;
