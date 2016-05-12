@@ -482,3 +482,21 @@ select > option {
 select::-ms-expand {
     display: none;
 }
+
+ul.time > li {
+    border: 0.1rem solid #e0e0e0;
+    background: #fff;
+    width: 5rem;
+}
+ul.time > li.active {
+    border: 0.1rem solid #e0e0e0;
+    background: #f29600;
+    color: #ffffff;
+}
+
+.nav > li {
+    width: 5rem;
+    position: relative;
+    display: block;
+    margin-left: 1rem;
+}
